@@ -1,0 +1,177 @@
+.main_page{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+    margin: 80px 60px 65px 70px;
+}
+.question_area{
+    grid-column:span 3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.form_container{
+    grid-column: span 2;
+}
+.question_tag{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.question_tag span{
+    font-size: 34px;
+    font-weight: 700;
+}
+.para_tag p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact_tag{
+    display: flex;
+    gap: 80px;
+}
+.mobile{
+    display: flex;
+    gap: 10px;
+}
+.mobile img{
+    height: 23px;
+    width: 23px;
+}
+.mail{
+    display: flex;
+    gap: 10px;  
+}
+.mail img{
+    height: 29px;
+    width: 29px;
+}
+.mobile span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.mail a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    margin: auto;
+}
+form{
+    border: 1px solid #D1D5D8;
+    background-color: #F1F6F2;
+    padding: 50px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.form_element label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #102C57;
+}
+.form_element input{
+    width: 100%;
+    border: 1px solid #44546F;
+    border-radius: 4px;
+    padding: 9px 5px 9px 9px ;
+    font-weight: 400;
+    font-size: 14px;
+}
+.form_element textarea{
+    border: 1px solid #44546F;
+    height: 130px;
+    width: 100%;
+    color: #666666;
+    padding: 9px 5px 9px 9px;
+    border-radius: 4px;
+     font-weight: 400;
+    font-size: 16px;
+    resize: none;
+}
+.form_element1 button{
+    width: 100%;
+    background-color: #102C57;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+.car-profile {
+    display: none;
+}
+@media (max-width:640px){
+         .contact_tag {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.question_tag span{
+    font-size: 30px;
+}
+.para_tag p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.form_element label{
+    font-size: 16px;
+    font-size: 14px;
+}
+.form_element input{
+    font-size: 16px;
+}
+.mail a{
+    margin: 0px;
+} 
+    .main_page{
+display: flex;
+flex-direction: column;
+gap: 50px;
+  margin: 40px 20px 90px 20px;
+}
+.form_element1 button{
+    padding: 16px  14px;
+}
+}
+@media (max-width:738px) and (min-width:640px){
+    .main_page{
+display: flex;
+flex-direction: column;
+}
+        .contact_tag {
+  display: flex;
+  gap: 37px;
+}
+}
+@media (max-width:1024px) and (min-width:738px){
+.main_page{
+display: flex;
+flex-direction: column;
+}
+        .contact_tag {
+  gap: 90px;
+}
+}
+@media (max-width:1065px) and (min-width:1024px){
+        .contact_tag {
+  gap: 53px;
+}
+.main_page {
+    gap: 55px;
+        margin: 70px 50px 55px 60px;
+}
+}
+@media (max-width:1279px) and (min-width:1065px){
+    .contact_tag {
+    gap: 55px;
+}
+.main_page {
+    gap: 60px;
+}
+}

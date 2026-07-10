@@ -1,0 +1,190 @@
+.form{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    grid-column: span 2;
+    
+}
+.space1{
+    grid-column: span 2;
+}
+.space2{
+    grid-column: span 2;
+}
+.header{    
+    margin:100px auto 0px;
+}
+.header span{
+    font-size: 28px;
+    font-weight: 700;
+}
+.form-items{
+    border: 1px solid #D1D5D8;
+    border-radius: 4px;
+    padding: 20px 60px 35px 60px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.14);
+
+    margin-bottom: 90px;
+}
+.form-item label{
+    display: block;
+    margin-top:30px ;
+    font-size: 14px;
+    font-weight: 500;
+    color: #102C57;
+}
+.form-item input{
+    margin-top: 7px;
+    padding: 12px 14px 12px 14px;
+    border: 1px solid #44546F;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.checkboxs{
+    display: flex;
+    gap: 5px;
+    margin: 20px 0px 40px;
+    width: 100% ;
+}
+.checkboxs input{
+    height: 20px;
+    width: 20px;
+    accent-color: black;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0px;
+    width: 100%;
+}
+.form-item button{
+  
+     padding: 10px;
+     width: 100%;
+     background-color: #102C57;
+     border: none;
+     color: #FFFFFF;
+     font-size: 14px;
+     font-weight: 500;
+     border-radius: 4px;
+     margin-bottom: 20px;
+     margin-top: 60px;
+}
+.end{
+    margin: 0px auto ;
+}
+.end p{
+    font-size: 13px;
+    font-weight: 400;   
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.end span{
+    color: #102C57;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.car-profile {
+    display: none;
+}
+@media (max-width:639px){
+    .header span{
+    font-size: 25px;
+}
+.form-items{
+    padding: 10px 25px;
+}
+.form{
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.form-item input{
+    padding: 14px 0px ;
+}
+.form-item button{
+     padding: 10px 0px;
+}
+.form-item label{
+    font-size: 16px;
+}
+.header {
+    margin: 40px auto 0px;
+}
+.form-elements {
+    gap: 50px;
+}
+}
+@media(max-width:738px) and (min-width:639px){
+    .form{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    grid-column: span 3;
+    
+}
+.space1{
+    grid-column: span 1;
+}
+.space2{
+    grid-column: span 1;
+}
+.form-items {
+    padding: 20px 50px 35px 50px;
+
+}
+}
+@media(max-width:1024px) and (min-width:738px){
+    .form{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    grid-column: span 3;
+    
+}
+.space1{
+    grid-column: span 1;
+}
+.space2{
+    grid-column: span 1;
+}
+.form-items {
+    padding: 20px 50px 35px 50px;
+
+}
+}
+@media(max-width:1280px) and (min-width:1024px){
+    .form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    grid-column: span 2;
+    
+}
+.space1{
+    grid-column: span 1;
+}
+.space2{
+    grid-column: span 1;
+}
+}

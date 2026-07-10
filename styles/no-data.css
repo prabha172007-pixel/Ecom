@@ -1,0 +1,101 @@
+.page {
+  margin: 40px 40px 0px 40px;
+}
+
+.function {
+  display: flex;
+  gap: 13px;
+}
+.function span {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sofa {
+  color: #737373;
+}
+.count {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 60px 0px;
+}
+.count span {
+  margin: auto 0px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #737373;
+}
+
+.count-button {
+  display: flex;
+  gap: 20px;
+}
+.count-button button {
+  padding: 12px 20px;
+  background-color: #102c57;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+.count-button select {
+  padding: 10px 80px 10px 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+.image-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 69px;
+}
+.image-tag img{
+    height: 250px;
+    width: 270px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para span{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.para p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.car-profile {
+    display: none;
+}
+@media(max-width:640px){
+       .count {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+     .count-button select {
+    padding: 10px 45px 10px 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+    .count {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

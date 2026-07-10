@@ -1,0 +1,363 @@
+.full_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+    margin: 40px 40px 250px;
+}
+.upper_part{
+    margin: 115px 0px 100px 0px;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #102C57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    height: 20px;
+    width: 35px;
+}
+.product_status{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.welcoming{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.welcoming span{
+    font-size: 21px;
+    font-weight: 700;
+}
+.thanking span{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.welcoming button{
+        background-color: #102C57;
+        padding: 15px 60px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+}
+.parsal_detail{
+    display: flex;
+    gap: 140px;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.status span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #252B42;
+}
+.detail span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+}
+.summery span{
+    font-size: 28px;
+    font-weight: 600;
+    color: #252B42;
+}
+.summery div{
+    border:1px solid #252B42;
+    border-top: none;
+}
+.lower_part{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid #D1D5D8;
+}
+.head{
+    background-color:#F1F6F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 0px 20px 10px;
+    gap: 0px;
+}
+.head span{
+    font-size: 22px;
+    font-weight: 500;
+    color: #666666;
+}
+.product{
+    grid-column:span 2;
+}
+.quantity{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cost{
+    justify-self: center;
+    padding-left: 20px;
+}
+.data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr 1fr;
+    gap: 50px;
+}
+.p_img img{
+    height: 70px;
+    width: 93px;
+    border: 1px solid #D1D5D8;
+}
+.p_img {
+    display: flex;
+    gap: 15px;
+    grid-column: span 2;
+}
+.p_name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.p_name span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #252B42;
+}
+.p_color span{
+   font-size: 16px;
+   font-weight: 500;
+   color: #737373;
+}
+.p_quantity{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: span 3;
+    align-items: center;
+}
+.p_quantity span{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.p_Price{
+justify-self: center;
+}
+.p_Price span{
+    font-size: 21px;
+    font-weight: 600;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin: 0px 0px 0px 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.bottom1{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 40px 25px 0px;
+}
+.seperate_line{
+    border: 1px solid #BDBDBD;
+    margin: 0px 40px;
+}
+.total{
+    grid-column: span 4;
+    display: flex;
+    justify-content: end;
+}
+.bottom1 span{
+    font-size: 21px;
+    font-weight: 600;
+}
+.value{
+    display: flex;
+    justify-content: end;
+}
+.car-profile {
+    display: none;
+}
+@media (max-width:638px){
+       .parsal_detail {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.p_name{
+ text-align: center;
+}
+.p_img {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    grid-column: span 2;
+}
+.welcoming span {
+    font-size: 19px;
+}
+.body {
+    margin: 0px 0px 0px 15px;
+}
+.head {
+    padding: 20px 0px 20px 15px;
+}
+.seperate_line {
+    margin: 0px 15px;
+}
+.thanking{
+    display: flex;
+}
+.thanking span{
+    text-align: center;
+    font-size: 25px;
+}
+.bottom1 {
+    margin: 0px 15px 25px 0px;
+    gap: 40px;
+}
+.body {
+    margin: 0px 15px 0px 10px;
+}
+.upper_part {
+    margin: 15px 0px 100px 0px;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_page {
+    margin: 20px;
+    margin-bottom: 100px;
+}
+.p_name span {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.p_quantity span {
+    font-size: 16px;
+}
+.p_Price span {
+    font-size: 18px;    
+}
+.value span{
+    font-width: 600;
+    font-size: 18px;
+}
+.total span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+}
+.welcoming button {
+    font-size: 15px;
+}
+.status span {
+    font-size: 18px;
+}
+.detail span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+}
+.status {
+    justify-content: start;
+    align-items: start;
+}
+}
+@media (max-width:734px) and (min-width:638px){
+       .parsal_detail {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.status {
+    justify-content: start;
+    align-items: start;
+}
+.p_name{
+ text-align: center;
+}
+.p_img {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    margin: 0px 15px 0px 10px;
+}
+.head {
+    padding: 20px 0px 20px 15px;
+}
+.seperate_line {
+    margin: 0px 15px;
+}
+.bottom1 {
+    margin: 0px 15px 25px 0px;
+    gap: 40px;
+}
+.full_page {
+     margin: 40px;
+    margin-bottom: 100px;
+   
+}
+.upper_part {
+    margin: 50px 0px 100px 0px;
+}
+
+}
+@media(max-width:1024px) and (min-width:734px){
+    .parsal_detail {
+    gap: 90px;
+}
+}
